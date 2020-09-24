@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="my_name">Charles Johnson!</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="about_me">The "Extract dimension resource" menu option is not available for this attribute, so you will have to add it to dimens.xml by hand.</string>
+    <string name="what_is_your_nickname">What is your nickname?</string>
+    <string name="done">Done</string>
+</resources>
