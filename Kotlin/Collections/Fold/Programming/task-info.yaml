@@ -1,0 +1,12 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    // Return the set of products that were ordered by every customer
+    fun Shop.getSetOfProductsOrderedByEveryCustomer(): Set<Product> {
+        TODO()
+    }
+  learner_created: false
+status: Unchecked
+record: -1

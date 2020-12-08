@@ -1,0 +1,18 @@
+<html>
+ <head></head>
+ <body>
+  <h2 style="text-align: center;">All, Any and other predicates</h2> 
+  <p>Implement all the functions below using <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/all.html" rel="nofollow noopener noreferrer"><code>all</code></a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/any.html" rel="nofollow noopener noreferrer"><code>any</code></a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/count.html" rel="nofollow noopener noreferrer"><code>count</code></a>, <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/find.html" rel="nofollow noopener noreferrer"><code>find</code></a>.</p>
+  <pre><code class="language-java">val numbers = listOf(-1, 0, 2)
+val isZero: (Int) -&gt; Boolean = { it == 0 }
+numbers.any(isZero) == true
+numbers.all(isZero) == false
+numbers.count(isZero) == 1
+numbers.find { it &gt; 0 } == 2</code></pre> 
+  <pre><code class="language-java">data class Shop(val name: String, val customers: List&lt;Customer&gt;)
+
+data class City(val name: String)
+
+data class Customer(val name: String, val city: City, val orders: List&lt;Order&gt;)</code></pre>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>

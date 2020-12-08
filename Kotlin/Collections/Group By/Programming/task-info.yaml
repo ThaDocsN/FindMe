@@ -1,0 +1,10 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    // Return a map of the customers living in each city
+    fun Shop.groupCustomersByCity(): Map<City, List<Customer>> = TODO()
+  learner_created: false
+status: Unchecked
+record: -1

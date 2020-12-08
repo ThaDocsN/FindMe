@@ -1,0 +1,10 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    // Return a list of customers, sorted by the ascending number of orders they made
+    fun Shop.getCustomersSortedByNumberOfOrders(): List<Customer> = TODO()
+  learner_created: false
+status: Unchecked
+record: -1

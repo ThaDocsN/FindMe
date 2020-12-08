@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: argument name
+- text: new variable declaration
+- text: argument value
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Quiz

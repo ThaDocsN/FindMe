@@ -1,0 +1,17 @@
+<html>
+ <head></head>
+ <body>
+  <h2 style="text-align: center;">FlatMap</h2> 
+  <p>Implement <code>Customer.getOrderedProducts()</code> and <code>Shop.getAllOrderedProducts()</code> using <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/flat-map.html" rel="nofollow noopener noreferrer" title="Link: https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/flat-map.html"><code>flatMap</code></a>.</p>
+  <pre><code class="language-java">val result = listOf("abc", "12").flatMap { it.toCharList() }
+result == listOf('a', 'b', 'c', '1', '2')
+
+data class Shop(val name: String, val customers: List&lt;Customer&gt;)
+
+data class Customer(val name: String, val city: City, val orders: List&lt;Order&gt;)
+
+data class Order(val products: List&lt;Product&gt;, val isDelivered: Boolean)
+
+data class Product(val name: String, val price: Double)</code></pre>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>

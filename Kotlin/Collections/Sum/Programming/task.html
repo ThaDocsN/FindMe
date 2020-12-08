@@ -1,0 +1,17 @@
+<html>
+ <head></head>
+ <body>
+  <h2 style="text-align: center;">Sum</h2> 
+  <p>Implement <code>Customer.getTotalOrderPrice()</code> using <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/sum.html" rel="nofollow noopener noreferrer"><code>sum</code></a> or <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/sum-by.html" rel="nofollow noopener noreferrer"><code>sumBy</code></a><code>.</code><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/sum-by-double.html" rel="nofollow noopener noreferrer"><code></code></a></p>
+  <pre><code class="language-java">listOf(1, 5, 3).sum() == 9
+listOf("a", "b", "cc").sumBy { it.length() } == 4
+
+data class Customer(val name: String, val city: City, val orders: List&lt;Order&gt;)
+
+data class Order(val products: List&lt;Product&gt;, val isDelivered: Boolean)
+
+data class Product(val name: String, val price: Double)</code></pre> 
+  <p><br></p>
+  <p>If you want to sum the double values, use <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/sum-by-double.html" rel="nofollow noopener noreferrer"><code>sumByDouble</code></a>.</p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>

@@ -1,0 +1,10 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    // Return customers who have more undelivered orders than delivered
+    fun Shop.getCustomersWithMoreUndeliveredOrdersThanDelivered(): Set<Customer> = TODO()
+  learner_created: false
+status: Unchecked
+record: -1

@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    class DateRange(val start: MyDate, val endInclusive: MyDate)/* TODO */
+
+    fun checkInRange(date: MyDate, first: MyDate, last: MyDate): Boolean {
+        return date in DateRange(first, last)
+    }
+  learner_created: false
+status: Unchecked
+record: -1

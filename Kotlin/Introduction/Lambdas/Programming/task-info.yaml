@@ -1,0 +1,9 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: 'fun containsEven(collection: Collection<Int>): Boolean = collection.any {
+    TODO() }'
+  learner_created: false
+status: Unchecked
+record: -1

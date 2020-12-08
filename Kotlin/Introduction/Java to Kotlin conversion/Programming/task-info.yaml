@@ -1,0 +1,8 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: 'fun toJSON(collection: Collection<Int>): String = TODO()'
+  learner_created: false
+status: Unchecked
+record: -1

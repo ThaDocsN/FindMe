@@ -1,0 +1,15 @@
+type: stepik
+title: Kotlin
+language: English
+summary: This problem set is based on official <a href="https://kotlinlang.org/docs/tutorials/koans.html"
+  rel="noopener noreferrer nofollow">Kotlin Koans</a>, which are released under the
+  MIT License.<br/><br/>Learn more at <a href="https://stepik.org/course/2852">https://stepik.org/course/2852</a>
+programming_language: Kotlin
+content:
+- Introduction
+- Conventions
+- Collections
+- Properties
+- Builders
+- Generics
+mode: Study

@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    class Person
+
+    fun getPeople(): List<Person> {
+        return listOf(Person("Alice", 29), Person("Bob", 31))
+    }
+  learner_created: false
+status: Unchecked
+record: -1

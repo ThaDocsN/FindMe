@@ -1,0 +1,11 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: 'fun start(): String = TODO()'
+  learner_created: false
+status: Solved
+feedback:
+  message: Correct solution
+  time: Tue, 01 Dec 2020 16:51:58 UTC
+record: -1

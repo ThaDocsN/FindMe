@@ -1,0 +1,39 @@
+<html>
+ <head></head>
+ <body>
+  <h2 style="text-align: center;">Html builder</h2> 
+  <p><em>1.</em> Fill the table with the proper values from the product list.</p>
+  <pre><code class="language-kotlin">data class Product(val description: String, val price: Double, val popularity: Int)</code></pre>
+  <em><br>2.</em> Color the table like a chess board (using getTitleColor() and getCellColor() functions above). Pass a color as an argument to the functions 
+  <code>tr</code>, 
+  <code>td</code>.
+  <br>
+  <br>
+  <pre><code class="language-kotlin">open class Tag(val name: String)
+
+class Attribute(val name : String, val value : String)
+
+fun &lt;T: Tag&gt; T.set(name: String, value: String?): T
+
+fun &lt;T: Tag&gt; Tag.doInit(tag: T, init: T.() -&gt; Unit): T
+
+class Html: Tag("html")
+class Table: Tag("table")
+class Center: Tag("center")
+class TR: Tag("tr")
+class TD: Tag("td")
+class Text(val text: String): Tag("b")
+
+fun html(init: Html.() -&gt; Unit): Html
+
+fun Html.table(init : Table.() -&gt; Unit): Table
+fun Html.center(init : Center.() -&gt; Unit): Center
+
+fun Table.tr(color: String? = null, init : TR.() -&gt; Unit): TR
+
+fun TR.td(color: String? = null, align : String = "left", init : TD.() -&gt; Unit): TD
+
+fun Tag.text(s : Any?): Text</code></pre>
+  <br>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>

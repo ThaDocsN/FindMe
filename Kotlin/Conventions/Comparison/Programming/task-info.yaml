@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    data class MyDate(val year: Int, val month: Int, val dayOfMonth: Int) : Comparable<MyDate> {
+        /* TODO */
+    }
+
+    fun compare(date1: MyDate, date2: MyDate) = date1 < date2
+  learner_created: false
+status: Unchecked
+record: -1

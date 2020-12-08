@@ -1,0 +1,8 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: 'fun joinOptions(options: Collection<String>) = options.joinToString(TODO())'
+  learner_created: false
+status: Unchecked
+record: -1

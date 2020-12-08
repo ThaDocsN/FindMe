@@ -1,0 +1,11 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    class LazyProperty(val initializer: () -> Int) {
+        val lazyValue: Int by TODO()
+    }
+  learner_created: false
+status: Unchecked
+record: -1

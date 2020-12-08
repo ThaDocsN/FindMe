@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    // Return the set of cities the customers are from
+    fun Shop.getCitiesCustomersAreFrom(): Set<City> = TODO()
+
+    // Return a list of the customers who live in the given city
+    fun Shop.getCustomersFrom(city: City): List<Customer> = TODO()
+  learner_created: false
+status: Unchecked
+record: -1

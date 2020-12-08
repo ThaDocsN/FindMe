@@ -1,0 +1,17 @@
+<html>
+ <head></head>
+ <body>
+  <h2 style="text-align: center;">Fold</h2> 
+  <p>Implement <code>Shop.getSetOfProductsOrderedByEveryCustomer()</code> using <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/kotlin.-iterable/fold.html" rel="nofollow noopener noreferrer"><code>fold</code></a>.</p>
+  <pre><code>listOf(1, 2, 3, 4).fold(1, {
+    partProduct, element -&gt;
+    element * partProduct
+}) == 24
+
+data class Shop(val name: String, val customers: List&lt;Customer&gt;)
+
+data class Customer(val name: String, val city: City, val orders: List&lt;Order&gt;)
+
+data class Order(val products: List&lt;Product&gt;, val isDelivered: Boolean)</code></pre>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
